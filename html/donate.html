@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+	<script src="../js/lib/lazyload.js"></script>
+	<script src="../js/include.js"></script>
+	<script>
+		include.execute(function(){
+			donatePage.init();
+		});
+	</script>
+</head>
+<body>
+
+<div  class="coinzPage" id="donatePage">
+    <h2 id="header">
+        תרומה
+    </h2>
+
+    <div class="content">
+        <h4 class="secondary_title">
+גרור את הסכום הרצוי לקופה
+        </h4>
+        <div class="coins">
+            <img src="../images/donate/1shekel.png" value="1" />
+            <img src="../images/donate/2shekel.png" value="2" />
+            <img src="../images/donate/5shekel.png" value="5" />
+            <img src="../images/donate/10shekel.png" value="10" />
+        </div>
+        <form id="multiplyForm">
+            <img src="../images/donate/18shekel.png" />
+            <label>
+                הכפל ב
+            </label>
+            <input name="multiply" type="text" />
+            <button type="button">
+                אשר
+            </button>
+        </form>
+
+        <form id="otherDonate">
+            <img src="../images/donate/otherShekel.png" />
+            <input name="value" type="text" placeholder="הקלד סכום"/>
+            <button type="button">
+                אשר
+            </button>
+        </form>
+
+        <input type="text" id="donationNote"
+               placeholder="הוסף כאן הערה לתרומה"
+        />
+
+        <img class="cashier" src="../images/donate/cashier.png" />
+    </div>
+
+
+    <div id="footer">
+        <a href="main.html" class="main goToLink">
+        	ראשי
+        </a>
+        <a href="donate.html" class="donate goToLink">
+        	תרומה
+        </a>
+        <a href="msg.html" class="msg goToLink">
+        	הודעה
+        </a>
+        <a href="donations.html" class="profile goToLink">
+        	פרופיל
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

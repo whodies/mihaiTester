@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+	<script src="../js/lib/lazyload.js"></script>
+	<script src="../js/include.js"></script>
+	<script>
+		include.execute(function(){
+			registerForm.init();
+		});
+	</script>
+</head>
+<body>
+
+<div class="coinzPage" id="register">
+    <div id="BH">
+        ב"ה
+    </div>
+    <img id="imglogoInPage" src="../images/coinz_logo.png"/>
+    <h2>הרשמה חד-פעמית לשירות</h2>
+             <form id="registerFormOne">
+					<input type="text" name="firstname" id="firstname" placeholder="שם פרטי"  required />
+					<input type="text" name="lastname" id="lastname" placeholder="שם משפחה" required />
+                    <input type="number" name="phone" id="phone"
+                    placeholder="מספר טלפון"
+                    required />
+                    <input type="password" name="password" id="password" placeholder="סיסמא" required />
+					<input type="text" name="email" id="email" placeholder="אימייל"required />
+                    <select name="beit_chabad_id" id="owner_beit_chabad">
+					    <option value="" disabled selected>
+בחר את שם המוסד
+                            </option>
+					</select>
+                    <input name="terms" type="checkbox" id="chkSelect"/>
+                    <span id="termsText">
+                        אני מאשר את
+                        <a id="goToTerms" href="javascript:void(0);">
+                            תנאי השירות
+                        </a>
+                    </span>
+                    <input type="submit" id="registerBtn" class="registerbutton" value="הרשמה" />
+			</form>
+
+<span id="loginText">
+אם הנך רשום לשירות
+                    <a id="goToLogin" href="javascript:void(0);">
+                        לחץ כאן לכניסה
+                    </a>
+</span>
+
+</div>
+
+<div id="appterms">
+    <h2>
+        תנאי השימוש בשרות
+        <a href="javascript:void(0);" id="goBack">
+            חזרה
+        </a>
+    </h2>
+    <div class="text">
+        מידע חשוב - נא קרא הסכם זה בעיון לפני ההתקנה של האפליקציה זו. כל שימוש באפליקציה, לרבות בכל גרסה מעודכנת, שינוי, שיפור, עדכון ו/או שדרוג של האפליקציה אשר יסופקו על ידי בית חב"ד הינו כפוף, ויהיה כפוף, לתנאים ולהוראות אשר מפורטים בהסכם זה. בעצם השימוש באפליקציה ו/או על ידי התקנת האפליקציה על הטלפון הנייד שלך או במחשב שלך, אתה מסכים להסכם זה. אם אינך מסכים להסכם זה ולתנאים ולהוראות של מדיניות הפרטיות של גטאקסי ולתנאי השימוש, או אם אינך מעוניין שתנאים והוראות אלה יחייבו אותך, אנא אל תתקין את האפליקציה, ומחק באופן מיידי את האפליקציה, וכל חלק ממנה, מהטלפון הנייד שלך או מהמחשב שלך ועל תשתמש בה לכל צורך ובכל אופן
+
+
+    </div>
+</div>
+
+</body>
+</html>

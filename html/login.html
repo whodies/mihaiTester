@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+	<script src="../js/lib/lazyload.js"></script>
+	<script src="../js/include.js"></script>
+	<script>
+		include.execute(function(){
+			loginForm.init();
+		});
+	</script>
+</head>
+<body>
+<div  class="coinzPage" id="login">
+    <div id="BH">
+        ב"ה
+    </div>
+    <img id="imglogoInPage" src="../images/coinz_logo.png"/>
+    <h2>
+        כניסה לשירות
+        <a href="javascript:void(0);" id="goToRegister">
+לא רשום ?
+        </a>
+    </h2>
+
+    <form id="loginForm">
+        <input type="text" name="email" id="email" placeholder="אימייל"required />
+        <input type="password" name="password" id="password" placeholder="סיסמא" required />
+        <input type="submit" name="" id="loginBtn" class="loginbutton" value="כניסה" />
+    </form>
+</div>
+</body>
+</html>

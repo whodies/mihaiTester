@@ -1,0 +1,56 @@
+#remindersPage .reminders_list li {
+    color:#600723;
+    background: #FCD793;
+    background-image: url("../../images/to_message.png");
+    padding: 16px 10%;
+    border-bottom: 1px solid #600723;
+    background-position: 12px center;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+#remindersPage .reminders_list li {
+    color:#600723;
+    background: #FCD793;
+    padding: 16px 10%;
+    border-bottom: 1px solid #600723;
+    background-position: 12px center;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+#remindersPage .addReminderBtn {
+    margin: 10px auto;
+    width: 80px;
+    display: block;
+    text-align: center;
+    border-radius: 13px;
+    border: 0;
+    padding: 6px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #600723;
+    text-decoration: none;
+}
+
+
+#remindersPage li .remove {
+    float: left;
+    background-color: #600723;
+    color: #ffffff;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 13px;
+    height: 11px;
+    font-family: sans-serif;
+    position: relative;
+    border-radius: 23px;
+    bottom: 4px;
+}
+#remindersPage .no_reminders_text{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 50%;
+}

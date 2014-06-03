@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+	<script src="../js/lib/lazyload.js"></script>
+	<script src="../js/include.js"></script>
+	<script>
+		include.execute(function(){
+			mainPage.init();
+		});
+	</script>
+</head>
+
+<body>
+
+<div class="coinzPage" id="welcomePage">
+    <div id="header">
+        <div id="beitChabadLabel"></div>
+    </div>
+    <div class="content">
+        <div id="hebDate">
+            <div id="BH">
+                ב"ה
+            </div>
+           <div id="hebcalDate">  
+           		<script type="text/javascript" charset="utf-8" src="http://www.hebcal.com/etc/hdate-he.js"></script>
+           </div>
+        </div>
+
+        <img id="imglogoInPage" src="../images/habad_logo.png"/>
+
+        <img id="yom_yom_label" src="../images/welcome/yom-yom.png"/>
+
+
+		<div id="yom_yom_text"></div>
+
+        <a id="goToDonate" href="donate.html" class="donate goToLink">
+        תרומה
+        </a>
+
+	    <div id="footer">
+	        <a href="main.html" class="main goToLink active">
+	        	ראשי
+	        </a>
+	        <a href="donate.html" class="donate goToLink">
+	        	תרומה
+	        </a>
+	        <a href="msg.html" class="msg goToLink">
+	        	הודעה
+	        </a>
+	        <a href="donations.html" class="profile goToLink">
+	        	פרופיל
+	        </a>
+	    </div>
+    </div>
+</div>
+
+</body>
+</html>

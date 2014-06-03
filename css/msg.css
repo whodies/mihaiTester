@@ -1,0 +1,38 @@
+#msgPage h2 #goBack {
+    display:none;
+    background: #600723;
+    text-decoration: none;
+    padding: 5px 6px;
+    position: absolute;
+    font-size: 14px;
+    top: 8px;
+    right: 7px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#msgPage .message_list li {
+    color:#600723;
+    background: #FCD793;
+    background-image: url("../images/to_message.png");
+    padding: 16px 10%;
+    border-bottom: 1px solid #600723;
+    background-position: 12px center;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+#message_details img {
+    width:100%;
+}
+
+#message_details .title {
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+#message_details .text {
+    padding: 0px 20px;
+}
+

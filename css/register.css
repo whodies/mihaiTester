@@ -1,0 +1,109 @@
+#register form {
+    font-size: 16px;
+    padding: 15px 0%;
+    width: 80%;
+    margin: 10px 10%;
+    height: 277px;
+}
+
+#register img {
+    width:100%;
+}
+
+#register h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 5px;
+    color: #600723;
+}
+
+#register input {
+    border-radius: 15px;
+    border: 1px solid #600723;
+    padding: 7px 10%;
+    width: 80%;
+    margin-bottom: 4px;
+    float: right;
+    font-size: 18px;
+}
+
+#register select {
+    border-radius: 15px;
+    background: #F38A49;
+    padding: 6px 20px;
+    border: 1px solid #600723;
+    width: 100%;
+    font-size: 18px;
+    font-family: "HaHaluzim"
+}
+#register option {
+    border-radius: 0;
+    width:100%;
+}
+
+#register #chkSelect {
+    float: right;
+    width: 20px;
+    margin-top: 10px;
+}
+
+#register #termsText {
+    margin-top: 7px;
+    float: right;
+    text-decoration: none;
+    color: #600723;;
+}
+
+#register #termsText a {
+    text-decoration: underline;
+    color: #600723;
+}
+
+#loginText {
+    line-height: 1.5;
+    float: right;
+    margin-right: 56px;
+    margin-top: 20px;
+}
+
+#register .registerbutton {
+    border-radius: 15px;
+    background: #600723;
+    border: 1px solid #600723;
+    width: 50%;
+    color: #ffffff;
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 37px;
+}
+
+#appterms {
+    display:none;
+}
+
+#login {
+    display:none;
+}
+
+#appterms h2 {
+    background: #F35F25;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 22px;
+}
+
+#appterms h2 a {
+    background: #600723;
+    text-decoration: none;
+    padding: 5px 15px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#appterms .text {
+    padding:25px;
+    color: #600723;
+}

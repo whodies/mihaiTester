@@ -1,0 +1,92 @@
+#main #header {
+    height: 59px;
+    text-align: center;
+    line-height: 61px;
+    color: white;
+    text-shadow: 0px 0px 0;
+    font-size: 29px;
+}
+
+#main #header div {
+    text-align: center;
+}
+
+
+#hebDate, #yom_yom_label, .text-box {
+    background-color: white;
+    font-family: "HaHaluzim";
+}
+
+#welcomePage{
+    background-color: white;
+    font-family: "HaHaluzim";
+    width: 100%;
+}
+
+.content{
+    background-color: white;
+    font-family: "HaHaluzim";
+    height: 500px;
+}
+
+#hebDate {
+    font-size: 20px;
+    text-align: center;
+}
+
+#imglogoInPage, #yom_yom_label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+#yom_yom_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 250px;
+}
+
+.text-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3px;
+    width: 20em;
+    position: relative;
+    height: 200px;
+}
+
+#yom_yom_text{
+	background-image: url('../images/welcome/box.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 72%;
+	height: 117px;
+	margin-right: 5%;
+	padding: 7%;
+	margin-left: 5%;
+	margin-bottom: 10px;
+	text-align: right;
+	display: block;
+	margin: auto;
+	overflow: auto;
+	font-size: 20px;
+}
+
+#goToDonate {
+	width: 84%;
+	text-align: center;
+	background-color: #600723;
+	color: #ffffff;
+	border-radius: 15px;
+	height: 30px;
+	display: block;
+	clear: both;
+	text-decoration: none;
+	padding-top: 4px;
+	font-size: 26px;
+	margin: auto;
+	margin-top:65px;
+}

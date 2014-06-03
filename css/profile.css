@@ -1,0 +1,19 @@
+#profileHeader {
+    height:44px;
+}
+
+#profileHeader a {
+    text-decoration: none;
+    color: #ffffff;
+    height: 24px;
+    width: 30%;
+    font-size: 22px;
+    padding: 10px 10%;
+    text-align: center;
+    float:right;
+    background: #F35F25;
+}
+
+#profileHeader a.active {
+    background: #600723;
+}

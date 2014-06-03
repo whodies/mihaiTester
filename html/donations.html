@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+	<script src="../js/lib/lazyload.js"></script>
+	<script src="../js/include.js"></script>
+	<script>
+		include.execute(function(){
+			donationsPage.init();
+		});
+	</script>
+</head>
+<body>
+
+<div class="coinzPage" id="donationsPage">
+    <h2 id="header" class="ready_for_dynamic">
+        פרופיל
+        <span class="location"></span>
+    </h2>
+    <div id="profileHeader" class="ready_for_dynamic">
+        <a href="reminders.html" class="goToLink" > תזכורות </a>
+        <a href="donations.html" class="goToLink" > תרומות </a>
+    </div>
+
+    <ul class="donations_list dynamic_height ready_for_dynamic">
+
+    </ul>
+
+    <div id="footer">
+        <a href="main.html" class="main goToLink">
+        	ראשי
+        </a>
+        <a href="donate.html" class="donate goToLink">
+        	תרומה
+        </a>
+        <a href="msg.html" class="msg goToLink">
+        	הודעה
+        </a>
+        <a href="donations.html" class="profile goToLink">
+        	פרופיל
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
