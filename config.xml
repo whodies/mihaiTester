@@ -22,7 +22,6 @@
     -->
     <access origin="http://phonegap.com" subdomains="true" />
     
-    <gap:platform name="ios" />
 	<gap:platform name="android" />
 	
 </widget>
