@@ -22,6 +22,7 @@
     -->
     <access origin="http://phonegap.com" subdomains="true" />
     
+    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.1.1" />
 	<gap:platform name="android" />
 	
 </widget>
